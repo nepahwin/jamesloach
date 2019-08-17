@@ -6,7 +6,7 @@ Authors: James Loach
 
 <img src="{static}/images/james_loach.jpg" style="margin:auto"></img>
 
-I'm Chief Scientist at [Senseye](https://www.senseye.io), where I lead a team developing algorithms for one of the world's leading predictive maintenance applications.
+I'm Chief Scientist at [Senseye](https://www.senseye.io), where I lead a team developing algorithms for the world's leading predictive maintenance application.
 
 I was trained as a physicist and have undergraduate (MPhys) and postgraduate (DPhil, Particle Physics) degrees from the University of Oxford. My thesis work was on the [Nobel Prize-winning](https://www.nobelprize.org/prizes/physics/2015/press-release/) Sudbury Neutrino Observatory experiment. I was a post doc at Berkeley National Laboratory and a professor at Shanghai Jiao Tong University (上海交通大学). I am a member of the Chinese 1000 Young Talents Plan (青年千人计划).
 
