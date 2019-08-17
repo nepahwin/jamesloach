@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+
+{% block head %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Data science, particle physics and the Chinese language.">
+<meta name="author" content="James C. Loach">
+<link rel="icon" href="../favicon.ico">
+
+<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+<!-- JQuery -->
+<script>
+    window.jQuery || document.write('<script src="{{ SITEURL }}/theme/js/jquery.min.js"><\/script>')
+</script>
+
+<!-- Typekit -->
+<script src="https://use.typekit.net/slk1znu.js"></script>
+<script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.css" />
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/ie10-viewport-bug-workaround.css" />
+<!-- Custom styles for this template -->
+<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
+<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/notebooks.css" />
+{% block extra_css %}{% endblock %}
+
+{% endblock head %}
+
+<body>
+
+  <div class="jl-top-ribbon" style="height:6px; position:fixed; width:100%; z-index:1">
+    <div class="jl-green jl-ribbon-div-17"></div>
+    <div class="jl-blue jl-ribbon-div-17"></div>
+    <div class="jl-purple jl-ribbon-div-16"></div>
+    <div class="jl-pink jl-ribbon-div-16"></div>
+    <div class="jl-orange jl-ribbon-div-17"></div>
+    <div class="jl-yellow jl-ribbon-div-17"></div>
+  </div>
+
+  <div class="navbar navbar-fixed-top" style="margin-top:6px">
+
+    <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="{{ SITEURL }}">JAMES C. LOACH</a>
+      </div>
+       <div class="navbar-collapse collapse" id="searchbar">
+         <ul class="nav navbar-nav navbar-right">
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="{{ SITEURL }}/pages/about.html">James Loach</a></li>
+               <li><a href="https://www.linkedin.com/in/jamesloach">LinkedIn</a></li>
+               <li><a href="https://github.com/nepahwin">GitHub</a></li>
+             </ul>
+           </li>
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+               role="button" aria-haspopup="true" aria-expanded="false">Notes<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="{{ SITEURL }}#Chinese">Chinese computing</a></li>
+               <li><a href="{{ SITEURL }}#matplotlib">matplotlib</a></li>
+               <li><a href="{{ SITEURL }}#pandas">pandas</a></li>
+               <li><a href="{{ SITEURL }}#Python">Python</a></li>
+               <li><a href="{{ SITEURL }}#scipy">scipy</a></li>
+               <li><a href="{{ SITEURL }}#sql">SQL</a></li>
+             </ul>
+           </li>
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+               role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="http://sinophenia.com">Sinophenia</a></li>
+               <li><a href="http://tangerinechinese.com">Tangerine Chinese</a></li>
+               <li><a href="https://radiopurity.org">Radiopurity.org</a></li>
+               <li><a href="{{ SITEURL }}/pages/maps.html">Map making</a></li>
+             </ul>
+           </li>
+         </ul>
+
+         <form class="navbar-form" action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value);">
+           <div class="form-group" style="display:inline;">
+             <div class="input-group" style="display:table;">
+               <span class="input-group-addon" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>
+               <input class="form-control search-query" name="q" id="tipue_search_input" placeholder="" required autocomplete="off" type="text">
+             </div>
+           </div>
+         </form>
+
+       </div>
+    </div>
+  </div>
+
+  <!-- end of header section -->
+  <div class="container">
+    {% block content %} {% endblock %}
+  </div>
+  <!-- start of footer section -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p class="text-muted">
+        <small>Copyright James C. Loach, <time datetime="2019">2019</time>.</small>
+      </p>
+    </div>
+    <div>
+      <div class="jl-green jl-ribbon-div-17"></div>
+      <div class="jl-blue jl-ribbon-div-17"></div>
+      <div class="jl-purple jl-ribbon-div-16"></div>
+      <div class="jl-pink jl-ribbon-div-16"></div>
+      <div class="jl-orange jl-ribbon-div-17"></div>
+      <div class="jl-yellow jl-ribbon-div-17"></div>
+    </div>
+  </footer>
+
+  <!-- This jQuery line finds any span that contains code highlighting classes and then selects the parent <pre> tag and adds a border. This is done as a workaround to visually distinguish the code inputs and outputs -->
+
+<script>
+$( ".hll, .n, .c, .err, .k, .o, .cm, .cp, .c1, .cs, .gd, .ge, .gr, .gh, .gi, .go, .gp, .gs, .gu, .gt, .kc, .kd, .kn, .kp, .kr, .kt, .m, .s, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nt, .nv, .ow, .w, .mf, .mh, .mi, .mo, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss, .bp, .vc, .vg, .vi, .il" ).parent( "pre" ).css( "border", "2px solid #F5F2EE" ).css("background-color", "#F5F2EE");
+</script>
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="{{ SITEURL }}/theme/js/ie10-viewport-bug-workaround.js"></script>
+  {% block extra_js %}{% endblock %}
+</body>
+
+</html>

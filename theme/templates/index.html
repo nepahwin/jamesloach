@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="spacer10"></div>
+    <h1 class="text-center">Writing &amp; Coding</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+    <p>The reminders are notes for my own reference but hopefully they'll be useful for others. This site is on <a href="https://github.com/nepahwin/nepahwin.github.io">github</a> so please raise a ticket if you spot a mistake.</p>
+    <p>My name is James Loach. I'm a physicist and Chief Scientist at <a href="https://www.senseye.io">Senseye</a>. You can find out more about me <a href="{{ SITEURL }}/pages/about.html">here</a> or on <a href="http://https://www.linkedin.com/in/jamesloach/">LinkedIn</a>.</p>
+  </div>
+</div>
+
+
+<!-- Writing -->
+<!-- <div class="row">
+  <a class="anchor" id="Wtiting"></a>
+  <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+    <div class="panel panel-default">
+    <h2 class="text-center">Writing</h2>
+      <div class="panel-body">
+      <ul>
+        {% for article in articles if article.category == 'writing'%}
+          <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+        {% else %}
+          <li>Coming soon.</li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- Chinese / computing -->
+<div class="row">
+  <a class="anchor" id="Chinese"></a>
+  <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+    <div class="panel panel-default">
+    <h2 class="text-center">Chinese computing</h2>
+      <div class="standard-2col panel-body">
+      <ul>
+        {% for article in articles if article.category == 'chinese' and 'computing' in article.tags %}
+          <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+        {% else %}
+          <li>Coming soon.</li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- matplotlib -->
+<div class="row">
+  <a class="anchor" id="matplotlib"></a>
+  <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+    <div class="panel panel-default">
+    <h2 class="text-center">matplotlib</h2>
+      <div class="standard-2col panel-body">
+      <ul>
+        {% for article in articles if article.category == 'misc' and 'matplotlib' in article.tags %}
+          <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+        {% else %}
+          <li>Coming soon.</li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Python / pandas -->
+<div class="row">
+  <a class="anchor" id="pandas"></a>
+  <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+    <div class="panel panel-default">
+    <h2 class="text-center">pandas</h2>
+      <div class=" standard-2col panel-body">
+        <ul>
+          {% for article in articles if article.category == 'python' and 'pandas' in article.tags %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+          {% else %}
+            <li>Coming soon.</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Python / general -->
+<div class="row">
+  <a class="anchor" id="Python"></a>
+  <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+    <div class="panel panel-default">
+      <h2 class="text-center">Python</h2>
+      <div class="standard-2col panel-body">
+        <ul>
+          {% for article in articles if article.category == 'python' and 'general' in article.tags %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+          {% else %}
+            <li>Coming soon.</li>
+            <li>&nbsp;</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- scipy -->
+<div class="row">
+  <a class="anchor" id="scipy"></a>
+  <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+    <div class="panel panel-default">
+    <h2 class="text-center">scipy</h2>
+      <div class=" standard-2col panel-body">
+        <ul>
+          {% for article in articles if article.category == 'data_analysis' and 'scipy' in article.tags %}
+            <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+          {% else %}
+            <li>Coming soon.</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SQL -->
+<div class="row">
+  <a class="anchor" id="sql"></a>
+  <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+    <div class="panel panel-default">
+    <h2 class="text-center">SQL</h2>
+      <div class="standard-2col panel-body">
+      <ul>
+        {% for article in articles if article.category == 'misc' and 'sql' in article.tags %}
+          <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+        {% else %}
+          <li>Coming soon.</li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+{% endblock content %}
