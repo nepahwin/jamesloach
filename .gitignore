@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# pytest
+.pytest_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints
+
+# R and RStudio files
+.Rhistory
+.RData
+.Rproj.user/
+*.RProj
+
+# Pycharm files
+.idea
+
+# VScode files
+.vscode/
+
+# Package build files
+build/
+dist/
+*.egg-info/
+
+# MacOS temporary files
+.DS_Store
