@@ -42,8 +42,7 @@ My CV is on [LinkedIn](http://https://www.linkedin.com/in/jamesloach/) and you c
 
 ### Professional experience
 
-- **Chief Scientist**, Senseye Ltd. (2018-)
-- **Data Scientist**, Senseye Ltd. (2017-2018)
+- **Chief Scientist**, Senseye Ltd. (2017-)
 - **Founder & Director**, Sinophenia Ltd. (2016-)
 - **Assistant Professor**, Shanghai Jiao Tong University (上海交通大学) (2013-2016)
 - **Postdoctoral Research Scholar**, Lawrence Berkeley National Laboratory (2008-2012)
@@ -55,21 +54,21 @@ My CV is on [LinkedIn](http://https://www.linkedin.com/in/jamesloach/) and you c
 ### Awards
 
 - **Breakthrough Prize in Fundamental Physics** (part share) (2016)
--  Department award for undergraduate teaching (2015) 
-- National Science Foundation of China grant (2014) 
-- **China 1000 Young Talents Plan (青年千人计划)** (2012) 
-- Academic prizes, Somerville College, Oxford (2000-2003 )
+- Department award for undergraduate teaching (2015)
+- National Science Foundation of China grant (2014)
+- **China 1000 Young Talents Plan (青年千人计划)** (2012)
+- Academic prizes, Somerville College, Oxford (2000-2003)
 - Beilby academic scholarship, Somerville College, Oxford (2000)
 
 ### Publications
 
-- <a href="https://arxiv.org/pdf/1904.01148.pdf">Measurement of Neutron Production in Atmospheric Neutrino Interactions at the Sudbury Neutrino Observatory</a><span class=""> <br>B. Aharmim et al. (SNO Collaboration), submitted to Phys. Rev. D (2019).</span>
-- <a href="https://arxiv.org/pdf/hep-ex/0310030">Constraints on Neutrino Lifetime from the Sudbury Neutrino Observatory</a><span class=""> <br>B. Aharmim et al. (SNO Collaboration), Phys. Rev. D 99, 032013 (2019).</span>
-- <a href="https://arxiv.org/pdf/1811.00166.pdf">Tests of Lorentz Invariance at the Sudbury Neutrino Observatory</a><span class=""> <br>B. Aharmim et al. (SNO Collaboration), Phys. Rev. D 98, 112013 (2018).</span>
-- <a href="https://arxiv.org/pdf/1710.11608.pdf">Search for Zero-Neutrino Double Beta Decay in <sup>76</sup>Ge with the Majorana Demonstrator</a><span class=""> <br>C.E. Aalseth et al. (Majorana Collaboration), Phys. Rev. Lett. 120, 132502 (2018).</span>
-- <a href="https://arxiv.org/pdf/1705.00696.pdf">The Search for Neutron-antineutron Oscillations at the Sudbury Neutrino Observatory</a><span class=""> <br>B. Aharmim et al. (SNO Collaboration), Phys. Rev. D 96, 092005 (2018).</span>
+- <a href="https://journals.aps.org/prd/pdf/10.1103/PhysRevD.100.112005">Cosmogenic Neutron Production at the Sudbury Neutrino Observatory</a><span class=""> <br>B. Aharmim et al. (SNO Collaboration), Phys. Rev. D 100, 112005 (2019).</span>
+- <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.032013">Constraints on Neutrino Lifetime from the Sudbury Neutrino Observatory</a><span class=""> <br>B. Aharmim et al. (SNO Collaboration), Phys. Rev. D 99, 032013 (2019).</span>
+- <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.98.112013">Tests of Lorentz Invariance at the Sudbury Neutrino Observatory</a><span class=""> <br>B. Aharmim et al. (SNO Collaboration), Phys. Rev. D 98, 112013 (2018).</span>
+- <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.132502">Search for Zero-Neutrino Double Beta Decay in <sup>76</sup>Ge with the Majorana Demonstrator</a><span class=""> <br>C.E. Aalseth et al. (Majorana Collaboration), Phys. Rev. Lett. 120, 132502 (2018).</span>
+- <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.092005">The Search for Neutron-antineutron Oscillations at the Sudbury Neutrino Observatory</a><span class=""> <br>B. Aharmim et al. (SNO Collaboration), Phys. Rev. D 96, 092005 (2018).</span>
 - <a href="{static}/papers/readability.pdf">Finding Something to Read: Intelligibility, Readability and Learner Chinese Texts</a><span class=""> <br>J.C Loach, submitted to ITL - International Journal of Applied Linguistics (2017).</span>
-- <a href="{static}/papers/characters.pdf">Optimizing the Learning Order of Chinese Characters Using a Novel Topological Sort Algorithm</a><span class=""> <br>J.C. Loach and J. Wang, PLoS ONE 11(10): e0163623 (2016).</span>
+- <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0163623">Optimizing the Learning Order of Chinese Characters Using a Novel Topological Sort Algorithm</a><span class=""> <br>J.C. Loach and J. Wang, PLoS ONE 11(10): e0163623 (2016).</span>
 - <a href="https://arxiv.org/abs/1604.06169">A Database for Storing the Results of Material Radiopurity Measurements</a><span class=""> <br>J.C. Loach et al., Nucl. Instr. Meth. A 839 (2016).</span>
 - <a href="https://arxiv.org/abs/1601.03779">The Majorana Demonstrator Radioassay Program</a><span class=""> <br>N. Abgrall et al., Nucl. Instr. Meth. A 828 (2016).</span>
 - <a href="https://iopscience.iop.org/article/10.1088/1748-0221/10/12/P12002">Low-background Temperature Sensors Fabricated on Parylene Substrates</a><span class=""> <br>A. Dhar et al., J. Inst. 10 P12002 (2015).</span>

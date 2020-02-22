@@ -13,12 +13,12 @@
 
 <!-- JQuery -->
 <script>
-    window.jQuery || document.write('<script src="{{ SITEURL }}/theme/js/jquery.min.js"><\/script>')
+  window.jQuery || document.write('<script src="{{ SITEURL }}/theme/js/jquery.min.js"><\/script>')
 </script>
 
 <!-- Typekit -->
 <script src="https://use.typekit.net/slk1znu.js"></script>
-<script>try{Typekit.load({ async: false });}catch(e){}</script>
+<script>try { Typekit.load({ async: false }); } catch (e) { }</script>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.css" />
@@ -46,57 +46,60 @@
 
     <div class="container">
       <div class="navbar-header">
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </button>
-         <a class="navbar-brand" href="{{ SITEURL }}">JAMES C. LOACH</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ SITEURL }}">JAMES C. LOACH</a>
       </div>
-       <div class="navbar-collapse collapse" id="searchbar">
-         <ul class="nav navbar-nav navbar-right">
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-             <ul class="dropdown-menu">
-               <li><a href="{{ SITEURL }}/pages/about.html">James Loach</a></li>
-               <li><a href="https://www.linkedin.com/in/jamesloach">LinkedIn</a></li>
-               <li><a href="https://github.com/nepahwin">GitHub</a></li>
-             </ul>
-           </li>
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-               role="button" aria-haspopup="true" aria-expanded="false">Notes<span class="caret"></span></a>
-             <ul class="dropdown-menu">
-               <li><a href="{{ SITEURL }}#Chinese">Chinese computing</a></li>
-               <li><a href="{{ SITEURL }}#matplotlib">matplotlib</a></li>
-               <li><a href="{{ SITEURL }}#pandas">pandas</a></li>
-               <li><a href="{{ SITEURL }}#Python">Python</a></li>
-               <li><a href="{{ SITEURL }}#scipy">scipy</a></li>
-               <li><a href="{{ SITEURL }}#sql">SQL</a></li>
-             </ul>
-           </li>
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-               role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-             <ul class="dropdown-menu">
-               <li><a href="http://sinophenia.com">Sinophenia</a></li>
-               <li><a href="http://tangerinechinese.com">Tangerine Chinese</a></li>
-               <li><a href="https://radiopurity.org">Radiopurity.org</a></li>
-               <li><a href="{{ SITEURL }}/pages/maps.html">Map making</a></li>
-             </ul>
-           </li>
-         </ul>
+      <div class="navbar-collapse collapse" id="searchbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">About<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ SITEURL }}/pages/about.html">James Loach</a></li>
+              <li><a href="https://www.linkedin.com/in/jamesloach">LinkedIn</a></li>
+              <li><a href="https://github.com/nepahwin">GitHub</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Notes<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ SITEURL }}#Chinese">Chinese computing</a></li>
+              <li><a href="{{ SITEURL }}#matplotlib">matplotlib</a></li>
+              <li><a href="{{ SITEURL }}#pandas">pandas</a></li>
+              <li><a href="{{ SITEURL }}#Python">Python</a></li>
+              <li><a href="{{ SITEURL }}#scipy">scipy</a></li>
+              <li><a href="{{ SITEURL }}#sql">SQL</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ SITEURL }}/pages/sinophenia.html">Sinophenia</a></li>
+              <li><a href="{{ SITEURL }}/pages/tangerine.html">Tangerine Chinese</a></li>
+              <li><a href="https://radiopurity.org">Radiopurity.org</a></li>
+              <li><a href="{{ SITEURL }}/pages/maps.html">Map making</a></li>
+            </ul>
+          </li>
+        </ul>
 
-         <form class="navbar-form" action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value);">
-           <div class="form-group" style="display:inline;">
-             <div class="input-group" style="display:table;">
-               <span class="input-group-addon" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>
-               <input class="form-control search-query" name="q" id="tipue_search_input" placeholder="" required autocomplete="off" type="text">
-             </div>
-           </div>
-         </form>
+        <form class="navbar-form" action="{{ SITEURL }}/search.html"
+          onsubmit="return validateForm(this.elements['q'].value);">
+          <div class="form-group" style="display:inline;">
+            <div class="input-group" style="display:table;">
+              <span class="input-group-addon" style="width:1%;"><span class="glyphicon glyphicon-search"></span></span>
+              <input class="form-control search-query" name="q" id="tipue_search_input" placeholder="" required
+                autocomplete="off" type="text">
+            </div>
+          </div>
+        </form>
 
-       </div>
+      </div>
     </div>
   </div>
 
@@ -123,9 +126,9 @@
 
   <!-- This jQuery line finds any span that contains code highlighting classes and then selects the parent <pre> tag and adds a border. This is done as a workaround to visually distinguish the code inputs and outputs -->
 
-<script>
-$( ".hll, .n, .c, .err, .k, .o, .cm, .cp, .c1, .cs, .gd, .ge, .gr, .gh, .gi, .go, .gp, .gs, .gu, .gt, .kc, .kd, .kn, .kp, .kr, .kt, .m, .s, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nt, .nv, .ow, .w, .mf, .mh, .mi, .mo, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss, .bp, .vc, .vg, .vi, .il" ).parent( "pre" ).css( "border", "2px solid #F5F2EE" ).css("background-color", "#F5F2EE");
-</script>
+  <script>
+    $(".hll, .n, .c, .err, .k, .o, .cm, .cp, .c1, .cs, .gd, .ge, .gr, .gh, .gi, .go, .gp, .gs, .gu, .gt, .kc, .kd, .kn, .kp, .kr, .kt, .m, .s, .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nt, .nv, .ow, .w, .mf, .mh, .mi, .mo, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss, .bp, .vc, .vg, .vi, .il").parent("pre").css("border", "2px solid #F5F2EE").css("background-color", "#F5F2EE");
+  </script>
 
 
   <!-- Bootstrap core JavaScript
